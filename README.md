@@ -6,3 +6,7 @@
 #### Lecturer: Dominic Carr
 ##### Project: Multi-Paradigm Programming - Shop Project 
 ***
+
+This repository contains a Shop assignment of the Multi-Paradigm Programming module of the Higher Diploma in Data Analytics. 
+
+The assignment was implemented in C Procedural language, Python Procedural language and Object oriented programming Procedural language

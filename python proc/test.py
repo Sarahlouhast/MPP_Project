@@ -37,7 +37,6 @@ def create_and_stock_shop():
     return s
     
 def read_customer(file_path):
-    stock_prices = {}
     with open(file_path) as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=',')
         first_row = next(csv_reader)
@@ -73,5 +72,5 @@ def print_shop(s):
 #s = create_and_stock_shop()
 #print_shop(s)
 
-c = read_customer("../customer.csv", "../stock.csv")
+c = read_customer("../customer.csv")
 print_customer(c)
